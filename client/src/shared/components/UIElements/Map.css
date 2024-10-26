@@ -1,0 +1,18 @@
+ /* src/Map.css */
+
+.map {
+    height: 400px; /* Set the height of the map */
+    width: 100%;   /* Make the map full width */
+    border: 2px solid #ccc; /* Optional: Add a border around the map */
+    border-radius: 8px; /* Optional: Round the corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    margin: 20px 0; /* Optional: Add some margin */
+  }
+  
+  /* Optional: Add styles for map markers if you want */
+  .leaflet-marker-icon {
+    background-color: red; /* Change marker color */
+    border-radius: 50%; /* Make it circular */
+    border: 2px solid white; /* Add a border */
+  }
+  
